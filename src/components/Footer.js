@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
 
@@ -6,7 +7,7 @@ function Footer() {
             <footer>
                 <nav>
                     <ul>
-                        <li><a href="/">Home</a></li>
+                        <li><Link to="/">Home</Link></li>
                         <li><a href="/AboutUs">About Us</a></li>
                         <li><a href="/Coffee">My Coffee</a></li>
                         <li><a href="/ContactUs">Contact us</a></li>
