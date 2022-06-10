@@ -1,18 +1,43 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
+import AboutUs from './AboutUs';
+import Coffee from './Coffee';
+import ContactUs from './ContactUs';
+import Home from './Home';
 
 function Footer() {
-
   return (
-            <footer>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="aboutUs.html">About Us</a></li>
-                        <li><a href="coffee.html">My Coffee</a></li>
-                        <li><a href="contactUs.html">Contact us</a></li>
-                    </ul>
-                </nav>
-            </footer>
+    <Router>
+      <footer>
+        <nav>
+          <ul>
+            <li>
+              {' '}
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              {' '}
+              <Link to="/aboutUs">About</Link>
+            </li>
+            <li>
+              {' '}
+              <Link to="/coffee">Coffee</Link>
+            </li>
+            <li>
+              {' '}
+              <Link to="/contactUs">Contact Us</Link>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+      <Routes>
+        <Route path="/AboutUs" element={<AboutUs />}></Route>
+        <Route path="/Coffee" element={<Coffee />}></Route>
+        <Route path="/ContactUs" element={<ContactUs />}></Route>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
