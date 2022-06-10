@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function Coffee() {
   return (
     <>
-      <section>
+      {/* <section>
         <p>
           Qui body, aromatic, ut macchiato aftertaste ristretto irish. Half and
           half, rich cinnamon, sweet sit brewed lungo mazagran grinder. Con
@@ -16,7 +16,7 @@ function Coffee() {
           white saucer. Extraction, mazagran and ut, coffee black trifecta
           aftertaste id aroma.
         </p>
-      </section>
+      </section> */}
 
       <section id="coffee">
         <p>
@@ -107,7 +107,7 @@ function Coffee() {
           </tbody>
         </table>
       </section>
-      <section id="coffee">
+      {/* <section id="coffee">
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -185,7 +185,7 @@ function Coffee() {
           looks reasonable. The generated Lorem Ipsum is therefore always free
           from repetition, injected humour, or non-characteristic words etc.
         </p>
-      </section>
+      </section> */}
     </>
   );
 }

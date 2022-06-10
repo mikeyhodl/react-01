@@ -34,7 +34,7 @@ function Home() {
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <div className="container">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -56,9 +56,9 @@ function Home() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum
         </div>
-      </section>
+      </section> */}
 
-      <section>
+      {/* <section>
         <h1 className="mainHeading"> Coffee my first love</h1>
         <div className="container">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -79,7 +79,7 @@ function Home() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum
         </div>
-      </section>
+      </section> */}
 
       <section id="boxes">
         <div className="boxContainer">
