@@ -32,10 +32,10 @@ function Header() {
         </nav>
       </header>
       <Routes>
-      <Route path="/AboutUs" element={<AboutUs/>}></Route>
-        <Route path="/Coffee" element={<Coffee/>}></Route>
-        <Route path="/ContactUs" element={<ContactUs/>}></Route>
-        <Route path="/" element={<Home/>} />
+      <Route path="/AboutUs" element={<AboutUs />}></Route>
+        <Route path="/Coffee" element={<Coffee />}></Route>
+        <Route path="/ContactUs" element={<ContactUs />}></Route>
+        <Route path="/" element={<Home />} />
       </Routes>
     </Router>
   );
