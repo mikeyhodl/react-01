@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 import AboutUs from './AboutUs';
 import Coffee from './Coffee';
@@ -31,22 +31,12 @@ function Header() {
           </ul>
         </nav>
       </header>
-      <Switch>
-        <Route path="/about">
-          {' '}
-          <AboutUs />
-        </Route>
-        <Route path="/coffee">
-          <Coffee />
-        </Route>
-        <Route path="/contactUs">
-          {' '}
-          <ContactUs />{' '}
-        </Route>
-        <Route path="/">
-          <Home />{' '}
-        </Route>
-      </Switch>
+      <Routes>
+      <Route path="/AboutUs" element={<AboutUs/>}></Route>
+        <Route path="/Coffee" element={<Coffee/>}></Route>
+        <Route path="/ContactUs" element={<ContactUs/>}></Route>
+        <Route path="/" element={<Home/>} />
+      </Routes>
     </Router>
   );
 }
