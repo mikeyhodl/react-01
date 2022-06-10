@@ -14,24 +14,24 @@ import Home from './Home'
 function Header() {
 
   return (
-    <Router>
-        <header>
-            <nav>
-                <ul>
-                    <li> <Link to="/">Home</Link></li>
-                    <li> <Link to="/about">About</Link></li>
-                    <li> <Link to="/coffee">Coffee</Link></li>
-                    <li> <Link to="/contactUs">Contact Us</Link></li>
-                </ul>
-            </nav>
-        </header>
-        <Switch>
-            <Route path="/about"> <AboutUs /></Route>
-            <Route path="/coffee"><Coffee /></Route>
-            <Route path="/contactUs"> <ContactUs /> </Route>
-            <Route path="/"><Home /> </Route>
-        </Switch>
-      </Router>
+    // <Router>
+    //     <header>
+    //         <nav>
+    //             <ul>
+    //                 <li> <Link to="/">Home</Link></li>
+    //                 <li> <Link to="/about">About</Link></li>
+    //                 <li> <Link to="/coffee">Coffee</Link></li>
+    //                 <li> <Link to="/contactUs">Contact Us</Link></li>
+    //             </ul>
+    //         </nav>
+    //     </header>
+    //     <Switch>
+    //         <Route path="/about"> <AboutUs /></Route>
+    //         <Route path="/coffee"><Coffee /></Route>
+    //         <Route path="/contactUs"> <ContactUs /> </Route>
+    //         <Route path="/"><Home /> </Route>
+    //     </Switch>
+    //   </Router>
   );
 }
 
