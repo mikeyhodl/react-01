@@ -18,7 +18,7 @@ function Header() {
             </li>
             <li>
               {' '}
-              <Link to="/about">About</Link>
+              <Link to="/AboutUs">About</Link>
             </li>
             <li>
               {' '}
