@@ -10,16 +10,16 @@ function ContactUs() {
             <ul id="services">
               <li>
                 <h3>Coffee Design</h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Vivamus mi augue, viverra sit amet ultricies at, vulputate id
                   lorem. Nulla facilisi.
-                </p>
+                </p> */}
                 <p>Pricing: $1,000 - $3,000</p>
               </li>
               <li>
                 <h3>Coffee Maintenance</h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -28,12 +28,12 @@ function ContactUs() {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum
-                </p>
+                </p> */}
                 <p>Pricing: $250 per month</p>
               </li>
               <li>
                 <h3>Coffee Cost</h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -42,7 +42,7 @@ function ContactUs() {
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum
-                </p>
+                </p> */}
                 <p>Pricing: $25 per month</p>
               </li>
             </ul>
@@ -51,7 +51,7 @@ function ContactUs() {
           <aside id="sidebar">
             <div className="dark">
               <h3>Contact Us</h3>
-              <form className="contactForm">
+              <form className="contactForm" action="https://formcarry.com/s/C_RfIVhMknf" method="POST">
                 <div>
                   <label>First Name</label>
                   <br />
@@ -72,11 +72,11 @@ function ContactUs() {
                   <br />
                   <input type="number" placeholder="Phone Number" />
                 </div>
-                <div>
+                {/* <div>
                   <label>Address</label>
                   <br />
                   <textarea placeholder="address"></textarea>
-                </div>
+                </div> */}
                 <div>
                   <label>Message</label>
                   <br />
