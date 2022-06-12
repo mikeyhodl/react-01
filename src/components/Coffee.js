@@ -3,7 +3,7 @@ import React from "react";
 function Coffee() {
   return (
     <>
-      <section>
+      {/* <section>
         <p>
           Qui body, aromatic, ut macchiato aftertaste ristretto irish. Half and
           half, rich cinnamon, sweet sit brewed lungo mazagran grinder. Con
@@ -16,9 +16,9 @@ function Coffee() {
           white saucer. Extraction, mazagran and ut, coffee black trifecta
           aftertaste id aroma.
         </p>
-      </section>
+      </section> */}
 
-      <section id="coffee">
+      {/* <section id="coffee">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -59,7 +59,7 @@ function Coffee() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum
         </p>
-      </section>
+      </section> */}
 
       <section>
         <h2>Coffee Types</h2>
@@ -107,7 +107,7 @@ function Coffee() {
           </tbody>
         </table>
       </section>
-      <section id="coffee">
+      {/* <section id="coffee">
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -185,7 +185,7 @@ function Coffee() {
           looks reasonable. The generated Lorem Ipsum is therefore always free
           from repetition, injected humour, or non-characteristic words etc.
         </p>
-      </section>
+      </section> */}
     </>
   );
 }
